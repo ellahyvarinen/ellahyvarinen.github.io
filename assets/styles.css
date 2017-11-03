@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&subset=latin-ext');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #f8f8f8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #333;
+}
+
+p {
+    font-family: 'Hind', sans-serif;
+    font-size: 1em;
+}
+
+h2 {
+    /*color: #e00000;*/
+    color: #e08221;
+    font-size: 1.9em;
+    margin: 1em 0 1em 0;
+}
+
+h3 {
+    /*color: #e00000;*/
+    color: #555;
+    font-size: 1.7em;
+    margin: 1em 0 1em 0;
+}
+
+h4 {
+    color: #e08221;
+    font-size: 1.5em;
+    margin: 1em 0 1em 0;
+}
+
+.ingress {
+    font-family: 'Oswald', sans-serif;
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #777;
+}
+
+#messageLabel {
+    /*font-family: 'Zilla Slab Highlight', cursive;*/
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px #333;
+}
+
+#codeLabel {
+    font-family: "Courier New", Courier, monospace;
+    color: #000;
+    font-size: 2em;
+}
+
+#dataLabel {
+    font-family: "Courier New", Courier, monospace;
+    color: #000;
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+nav {
+    padding: 2em;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: 0.9s ease;
+}
+
+#navigation {}
+
+.is-hidden {
+    transform: translateY(-100%);
+}
+
+.nav-link {
+    transition: 0.3s ease;
+    color: #777;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+.nav-link:hover {
+    border-top: 4px solid #777;
+    border-bottom: 4px solid #777;
+    padding: 6px 0;
+}
+
+.banner {
+    text-align: center;
+    background-image: url(img/pallot.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    padding: 20em 2em;
+}
+
+.banner-button {
+    padding: 8px 22px 8px 22px;
+    border: 2px solid #fff;
+    width: 8em;
+    margin: auto;
+    margin-top: 2em;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.banner-button>a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.banner-button:hover {
+    background-color: #e08221;
+    text-decoration: none;
+    border: 2px solid #e08221;
+}
+
+.work-button {
+    padding: 8px 22px 8px 22px;
+    border: 2px solid #e08221;
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.work-button>a {
+    color: #e08221;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.work-button:hover {
+    border: 2px solid #f8f8f8;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about {
+    padding: 4em 2em;
+    text-align: center;
+    background-color: #fff;
+}
+
+#works h2 {
+    text-align: center;
+}
+
+.line {
+    border-bottom: 1px solid #d4d4d4;
+    max-width: 100%;
+    margin: 15px 15px;
+}
+
+.line-bold {
+    border-top: 5px solid #555;
+    width: 50%;
+}
+
+article {}
+
+article div {
+    width: 50%;
+    float: left;
+}
+
+.animation-box {
+    background-color: #fff;
+    height: auto;
+    padding: 10% 5%;
+}
+
+.text-box {
+    padding: 1em 2em 2em 2em;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+}
+
+#contact {
+    /*background-color: rgba(224,0,0,0.6);*/
+    height: auto;
+    text-align: center;
+    padding: 4em 2em;
+}
+
+.fa-orange {
+    color: #e08221;
+    margin-top: 1em;
+}
+
+.some {
+    margin: 1em;
+    color: #555;
+}
+
+.some:hover {
+    color: #e08221;
+}
+
+@media only screen and (max-width: 900px) {
+    article div {
+        width: 100%;
+        float: none;
+    }
+    nav {
+        padding: 2em 0;
+    }
+    .nav-link {
+        margin: 0 10px;
+    }
+    .banner {
+        padding: 15em 1em;
+    }
+    #messageLabel {
+        font-size: 2em;
+    }
+    .ingress {
+        font-size: 1.2em;
+    }
+    .some {
+        margin: 0.4em;
+    }
+}
