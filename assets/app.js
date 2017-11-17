@@ -1,4 +1,4 @@
-var message = "Web design and other stuff... Made by Ella";
+var message = "Something between web design and development...";
 var msgCount = 0;
 var messageLabel = document.getElementById("messageLabel");
 
@@ -12,7 +12,7 @@ function textFunc() {
         msgCount++;
     }
 }
-var code = "< head >" + '<br />' + " Something " + '<br />' + "< / head >" + '<br />' + "< body >" + '<br />' + " Cool stuff " + '<br />' + "< / body >";
+var code = "< head >" + '<br />' + " Something " + '<br />' + "< / head >" + '<br />' + "< body >" + '<br />' + " Something else " + '<br />' + "< / body >";
 var codeCount = 0;
 var codeLabel = document.getElementById("codeLabel");
 

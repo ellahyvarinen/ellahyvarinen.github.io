@@ -27,6 +27,10 @@ h5 {
     color: #333;
 }
 
+.orange {
+    color: #e08221 !important;
+}
+
 p {
     font-family: 'Hind', sans-serif;
     font-size: 1em;
@@ -53,7 +57,6 @@ h4 {
 }
 
 .ingress {
-    font-family: 'Oswald', sans-serif;
     text-transform: none;
     font-weight: 400;
     font-style: normal;
@@ -63,7 +66,8 @@ h4 {
 
 #messageLabel {
     /*font-family: 'Zilla Slab Highlight', cursive;*/
-    font-family: 'Fredericka the Great', cursive;
+    /*font-family: 'Fredericka the Great', cursive;*/
+    font-family: "Courier New", Courier, monospace;
     font-size: 3em;
     color: #fff;
     text-shadow: 2px 2px #333;
@@ -88,6 +92,7 @@ nav {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
     position: fixed;
     top: 0;
+    z-index: 999;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     transition: 0.9s ease;
@@ -163,7 +168,43 @@ nav {
 }
 
 .work-button:hover {
-    border: 2px solid #f8f8f8;
+    border: 2px solid #e08221;
+    background-color: #e08221;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.work-button:hover>a {
+    color: #fff;
+}
+
+.skills-div {
+    position: relative;
+    width: 50%;
+    height: 4em;
+    margin: 0.2em 0 0.2em 0;
+    background: #e08221;
+    -webkit-transition: width 1s;
+    /* Safari */
+    transition: width 1s;
+    transition-timing-function: ease-out;
+    -webkit-transition-timing-function: ease-out;
+}
+
+.skills-div:hover {
+    width: 100%;
+    background: #555;
+}
+
+.skills-div:hover>p {
+    text-decoration: line-through;
+}
+
+.skills-text {
+    position: absolute;
+    left: 0.5em;
+    bottom: 0.5em;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
 }
 
 img {
@@ -235,6 +276,22 @@ article div {
     color: #e08221;
 }
 
+.arrow-up {
+    position: sticky;
+    float: right;
+    bottom: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.arrow-up>a {
+    color: #e08221;
+}
+
+.arrow-up>a:hover {
+    color: #555;
+}
+
 @media only screen and (max-width: 900px) {
     article div {
         width: 100%;
@@ -254,6 +311,9 @@ article div {
     }
     .ingress {
         font-size: 1.2em;
+    }
+    .skills-div {
+        width: 70%;
     }
     .some {
         margin: 0.4em;

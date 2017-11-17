@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,7 +11,9 @@
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/styles.css" type="text/css">
 </head>
+
 <body>
+    <div id="top"></div>
     <header>
         <nav id="navigation">
             <a class="nav-link" href="#home">Home</a>
@@ -19,19 +22,33 @@
             <a class="nav-link" href="#contact">Contact</a>
         </nav>
     </header>
-    
+
     <div class="banner" id="home">
         <p id="messageLabel"></p>
         <div class="banner-button"><a href="#about">Read more</a></div>
     </div>
-    
+
     <main>
         <div id="about">
             <h2>About Me</h2>
             <div class="line"></div>
             <br />
-            <p class="ingress">Hello. I'm Ella Hyvärinen, a 4th year ICT student. My aim is to develop effective and memorable interfaces &amp; create meaningful user experiences for mobile and the web. I'm always intrested in cool stuff.</p>
-            <h4>Modern Web Development. Media Technolgy. ICT.</h4>
+            <h3>Hello</h3>
+            <p class="ingress">I am Ella. My aim is to develop effective and memorable interfaces &amp; create meaningful user experiences for mobile and the web. I'm always intrested in cool stuff.</p>
+            <br />
+            <h3>Degree</h3>
+            <p class="ingress">Modern Web Development. Media Technolgy. ICT. Metropolia UAS, Helsinki, Finland.</p>
+            <br />
+            <h3>Skills</h3>
+            <div class="skills-div">
+                <p class="skills-text">Front End Programming</p>
+            </div>
+            <div class="skills-div">
+                <p class="skills-text">Layout Design</p>
+            </div>
+            <div class="skills-div">
+                <p class="skills-text">WordPress</p>
+            </div>
         </div>
 
         <div id="works">
@@ -44,7 +61,8 @@
                     <i class="fa fa-code fa-3x fa-orange" aria-hidden="true"></i>
                     <h3>Web Development</h3>
                     <div class="line-bold"></div><br />
-                    <p>Check out some web-based applications and websites.</p>
+                    <p class="ingress orange">What I can do</p>
+                    <p>Check out some web-based applications and websites what I have done.</p>
                     <div class="work-button"><a href="http://unigames.fi/" target="_blank">Unigames</a></div>
                     <div class="work-button"><a href="http://users.metropolia.fi/~ellahy/dist/" target="_blank">NightSky</a></div>
                 </div>
@@ -56,11 +74,12 @@
                     <i class="fa fa-paint-brush fa-3x fa-orange" aria-hidden="true"></i>
                     <h3>Web Design</h3>
                     <div class="line-bold"></div><br />
-                    <p>UI / User Interface</p><br/>
+                    <p class="ingress orange">What I want to do</p><br />
+                    <p>UI / User Interface</p>
                     <p>UX / User Experience</p>
-                    <div class="work-button"><a href="#" target="_blank">Blog By Ella</a></div>
+                    <div class="work-button"><a href="http://users.metropolia.fi/~ellahy/blog/" target="_blank">Blog By Ella</a></div>
                 </div>
-                <div><img src="assets/img/circle-2891368_1920.jpg"></div>
+                <div><img src="assets/img/circle-2891368_1920.jpg" alt="Pixabay.com - Free pictures"></div>
             </article>
             <div class="clearfix"></div>
 
@@ -72,7 +91,9 @@
                     <i class="fa fa-area-chart fa-3x fa-orange" aria-hidden="true"></i>
                     <h3>Big Data Project</h3>
                     <div class="line-bold"></div><br />
+                    <p class="ingress orange">School project</p>
                     <p>First there was only a lot of data.<br />Then things were done.<br />Finally it all made sense.</p><br />
+                    <p><a href="http://www.metropolia.fi" class="orange">Metropolia</a> &times; <a href="https://yle.fi" class="orange">YLE</a></p>
                     <p>Ask me more.</p>
                 </div>
             </article>
@@ -83,19 +104,21 @@
                     <i class="fa fa-camera fa-3x fa-orange" aria-hidden="true"></i>
                     <h3>Photography</h3>
                     <div class="line-bold"></div><br />
-                    <p>When I'm not designing or programming you will probably find me exploring and photographing cool places.</p><br />
-                    <p> My passion.<br />No other words needed.</p>
+                    <p class="ingress orange">My passion</p>
+                    <p>When I'm not designing or programming you will probably find me exploring and photographing cool places.</p>
                 </div>
-                <div><img src="assets/img/tiles-shapes-2617112_1920.jpg"></div>
+                <div><img src="assets/img/tiles-shapes-2617112_1920.jpg" alt="Pixabay.com - Free pictures"></div>
             </article>
             <div class="clearfix"></div>
 
         </div>
         <div id="contact">
-            <h4>Contact</h4>
+            <h2>Contact</h2>
             <div class="line"></div>
+            <i class="fa fa-diamond fa-orange" aria-hidden="true"></i>
+            <p>Ella Hyvärinen</p>
             <i class="fa fa-phone fa-orange" aria-hidden="true"></i>
-            <p>040 556 2932</p>
+            <p>+358 40 556 2932</p>
             <i class="fa fa-envelope fa-orange" aria-hidden="true"></i>
             <p>ella.hyvarinen@hotmail.com</p>
             <i class="fa fa-map-marker fa-orange" aria-hidden="true"></i>
@@ -108,10 +131,21 @@
         </div>
 
     </main>
-    
+
     <footer></footer>
-    
+
+    <div class="arrow-up">
+        <a href="#top">
+            <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-angle-double-up fa-stack-1x fa-inverse" aria-hidden="true"></i>
+        </span>
+            <!--<br/>UP-->
+        </a>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="assets/app.js" type="text/javascript"></script>
 </body>
+
 </html>
