@@ -137,7 +137,7 @@ nav {
     width: 8em;
     margin: auto;
     margin-top: 2em;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);*/
 }
 
 .banner-button>a {
@@ -170,7 +170,7 @@ nav {
 .work-button:hover {
     border: 2px solid #e08221;
     background-color: #e08221;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    /*box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);*/
 }
 
 .work-button:hover>a {
